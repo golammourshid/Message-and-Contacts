@@ -19,6 +19,7 @@ public class Contacts {
         this.name = name;
         this.number = number;
         this.email = email;
+        this.messages = new ArrayList<>();
     }
 
     public void getDetails(){
